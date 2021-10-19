@@ -44,6 +44,7 @@ const StreamPlayerSetting: () => React$Node = props => {
     } else if (item.id === 2) {
       if (props.isEnabledCamera) {
         text = `Disable\ncamera`;
+
       } else {
         text = `Enable\ncamera`;
         stateStyle = styles.buttonCircleRed;

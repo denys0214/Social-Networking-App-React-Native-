@@ -11,6 +11,7 @@ import {
 import styles from "./reset-password.style.js";
 function hasUpperCase(str) {
   return /[A-Z]/.test(str);
+
 }
 function hasNumber(str) {
   return /[0-9]/.test(str);
