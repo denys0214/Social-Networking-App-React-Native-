@@ -38,6 +38,11 @@ export default StyleSheet.create({
     right: 0,
     top: 0,
     bottom: 0,
+position: "absolute",
+    left: 0,
+    right: 0,
+    top: 0,
+    bottom: 0,
   },
   overlayView: {
     position: "absolute",
@@ -66,6 +71,8 @@ export default StyleSheet.create({
     flexDirection: "row",
     marginVertical: wp(18),
     justifyContent: "center",
+    alignItems: "center",
+ justifyContent: "center",
     alignItems: "center",
   },
   iconButtonContainer: {

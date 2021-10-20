@@ -28,6 +28,8 @@ export default StyleSheet.create({
     width: wp(17),
     height: wp(12),
     resizeMode: "contain",
+height: wp(12),
+    resizeMode: "contain",
   },
 
   subContainer: {

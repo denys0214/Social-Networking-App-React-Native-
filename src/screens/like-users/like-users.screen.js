@@ -22,6 +22,10 @@ class LikeUsersScreen extends Component {
       scrollEnabled: true,
       visibleBoost: false,
       visibleRemainingBoost: false,
+visiblePurchase: false,
+      scrollEnabled: true,
+      visibleBoost: false,
+      visibleRemainingBoost: false,
     };
 
     this.boosting = false;
@@ -177,6 +181,9 @@ class LikeUsersScreen extends Component {
                 icon={Images.app.icRocket}
                 containerStyle={styles.flexRow}
                 iconStyle={styles.boostIcon}
+                onPress={() => this.onBoost(this.boosting)}
+                loading={this.props.isBoosting
+iconStyle={styles.boostIcon}
                 onPress={() => this.onBoost(this.boosting)}
                 loading={this.props.isBoosting}
               />

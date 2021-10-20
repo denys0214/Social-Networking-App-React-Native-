@@ -32,6 +32,8 @@ export default StyleSheet.create({
     fontFamily: "OpenSans",
     color: COLOR.TEXT_SECONDARY_2,
     marginLeft: wp(5),
+ color: COLOR.TEXT_SECONDARY_2,
+    marginLeft: wp(5),
   },
   topBarLocation: {
     fontSize: wp(12),
