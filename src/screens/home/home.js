@@ -49,7 +49,7 @@ const Home = props => {
     { left: 10, bottom: insets.bottom + 60 },
     { right: 10, bottom: insets.bottom + 60 },
   ];
-  const tutorialStyle = [
+  const tutorialStyle = [ 
     { left: 10, top: insets.top + 20 },
     { right: 10, top: insets.top + 20 },
     { left: 10, bottom: insets.bottom + 260 },

@@ -18,7 +18,7 @@ const StreamEndModal: () => React$Node = props => {
   let backShadowOpt = {
     width: width,
     height: height,
-    color: "#0B0516",
+    color: "#0B0516", 
     opacity: 0.5,
     _borderRadius: 20,
     spread: 0,
